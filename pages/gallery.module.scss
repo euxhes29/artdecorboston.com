@@ -1,0 +1,12 @@
+.galleryContainer {
+  width: 100%;
+  padding-block: 5rem;
+  padding-inline: 2.5rem;
+}
+
+@media (max-width: 600px) {
+  .galleryContainer {
+    padding-block: 2.5rem;
+    padding-inline: 1.5rem;
+  }
+}

@@ -1,0 +1,40 @@
+.gallery-container {
+  width: 100%;
+  padding: 0;
+}
+
+.gallery-container .lg-react-element {
+  display: grid !important;
+  gap: 25px;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.gallery-container a {
+  display: block;
+}
+
+.gallery-container a img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(181, 157, 129, 0.5);
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery-container .lg-react-element {
+    display: grid !important;
+    gap: 12.5px;
+    margin: 0 !important;
+    padding: 0 !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,495 @@
+.aboutUsContainer {
+  width: 100%;
+  padding-block: 100px;
+  padding-inline: 2.5rem;
+}
+
+.whoAreWe {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Kolona e majtë me imazhe */
+.whoAreWeFlex {
+  display: flex;
+  align-items: stretch;
+  flex: 1;
+  gap: 20px;
+  min-height: 500px;
+}
+
+/* Imazhi i madh majtas */
+.whoAreWeImage {
+  flex: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Dy imazhet e vogla vertikalisht */
+.imageFlex {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.image1,
+.image2 {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Të gjithë imazhet */
+.whoAreWeImage img,
+.image1 img,
+.image2 img {
+  object-fit: cover;
+}
+
+/* Kolona e djathtë me tekst */
+.whoAreWeText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  text-align: left;
+  min-width: 300px;
+}
+
+.aboutUsTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutUsTitle h2 {
+  font-size: 2.5rem;
+}
+
+.aboutUsTitle p {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--wood);
+  letter-spacing: 2px;
+}
+
+.whoAreWeText p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.aboutUsBtn {
+  margin-top: 20px;
+}
+
+.ourServicesContainer {
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background: linear-gradient(
+    to bottom,
+    var(--beige) 60%,
+    var(--background) 40%
+  );
+}
+
+.ourServicesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  padding-inline: 2.5rem;
+}
+
+.ourServicesTitle {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.ourServicesBtn {
+  a {
+    text-decoration: none;
+  }
+}
+
+.ourServicesCards {
+  width: 100%;
+  padding-inline: 2.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gallery {
+  width: 100%;
+  padding-block: 80px;
+  padding-inline: 2.5rem;
+}
+
+.galleryTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  h2 {
+    font-size: 2.5rem;
+    width: 45%;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--wood);
+    letter-spacing: 2px;
+  }
+}
+
+.galleryBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.testimonials {
+  background-color: var(--beige);
+  padding-block: 80px;
+}
+
+.testimonialsTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+
+  h2 {
+    font-size: 2.5rem;
+    width: 30%;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--wood);
+    letter-spacing: 2px;
+  }
+}
+
+.testimonialsCardsGroup {
+  padding-top: 60px;
+  padding-inline: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.testimonialsCard {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 40px 30px;
+  position: relative;
+  background: linear-gradient(135deg, #e0d7ce 0%, #d8d2c9 50%, #b59d81 100%);
+  box-shadow: 0 10px 30px rgba(60, 53, 47, 0.3);
+  overflow: hidden;
+  transition: all 0.4s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(60, 53, 47, 0.4);
+  }
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  z-index: 2;
+}
+
+.authorImage {
+  width: 70px;
+  height: 70px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #b59d81;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.authorName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+
+  h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    background: linear-gradient(90deg, #b59d81, #e0d7ce, #b59d81);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shineText 6s linear infinite;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 4px 0 0;
+    color: #7d8b6d;
+  }
+}
+
+.authorComment {
+  p {
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    color: #3c352f;
+    font-style: italic;
+    line-height: 1.8;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+
+@keyframes shineText {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: 0% center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutUsContainer {
+    width: 100%;
+    padding-block: 3.125rem;
+    padding-inline: 1.25rem;
+  }
+
+  .whoAreWe {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 1.25rem;
+  }
+
+  /* Kolona e majtë*/
+  .whoAreWeFlex {
+    display: flex;
+    align-items: stretch;
+    flex: 1;
+    gap: 20px;
+    min-height: 500px;
+  }
+
+  /* Imazhi i madh majtas */
+  .whoAreWeImage {
+    flex: 2;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Dy imazhet e vogla vertikalisht */
+  .imageFlex {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .image1,
+  .image2 {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Të gjithë imazhet */
+  .whoAreWeImage img,
+  .image1 img,
+  .image2 img {
+    object-fit: cover;
+  }
+
+  /* Kolona e djathtë me tekst */
+  .whoAreWeText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0;
+    text-align: left;
+    min-width: 300px;
+  }
+
+  .aboutUsTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .aboutUsTitle h2 {
+    font-size: 2.5rem;
+  }
+
+  .aboutUsTitle p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--wood);
+    letter-spacing: 2px;
+  }
+
+  .whoAreWeText p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+  }
+
+  .aboutUsBtn {
+    margin-top: 20px;
+  }
+
+  .ourServicesContainer {
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    background: linear-gradient(
+      to bottom,
+      var(--beige) 22%,
+      var(--background) 20%
+    );
+  }
+
+  .ourServicesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 42px;
+    padding-inline: 1.25rem;
+  }
+
+  .ourServicesTitle {
+    h2 {
+      font-size: 1.75rem;
+    }
+  }
+
+  .ourServicesCards {
+    padding-inline: 1.25rem;
+    flex-direction: column;
+    gap: 16.8px;
+  }
+
+  .gallery {
+    padding-block: 56px;
+    padding-inline: 1.25rem;
+  }
+
+  .galleryTitle {
+    gap: 14px;
+    h2 {
+      font-size: 1.75rem;
+      width: 100%;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .galleryBtn {
+    padding-top: 42px;
+  }
+  .testimonials {
+    padding-block: 56px;
+  }
+
+  .testimonialsTitle {
+    gap: 14px;
+
+    h2 {
+      font-size: 1.75rem;
+      width: 65%;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .testimonialsCardsGroup {
+    padding-top: 42px;
+    padding-inline: 1.25rem;
+    gap: 17.5px;
+  }
+
+  .testimonialsCard {
+    max-width: 100%;
+    gap: 17.5px;
+    padding: 28px 21px;
+  }
+
+  .author {
+    gap: 10.5px;
+  }
+
+  .authorImage {
+    width: 49px;
+    height: 49px;
+  }
+
+  .authorName {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.8px;
+
+    h4 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 4px 0 0;
+    }
+  }
+
+  .authorComment {
+    p {
+      font-size: 14px;
+      padding: 0 14px;
+    }
+  }
+}

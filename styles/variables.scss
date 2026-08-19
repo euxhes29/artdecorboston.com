@@ -1,0 +1,58 @@
+:root {
+  //Primary Colors
+  --background: #f5f2ed;
+  --beige: #e0d7ce;
+  --stone: #d8d2c9;
+  --wood: #b59d81;
+  --green: #7d8b6d;
+  --dark: #3c352f;
+  --white: #ffffff;
+
+  //Text Colors
+  --text-primary: var(--dark);
+  --text-secondary: var(--wood);
+  --text-accent: var(--green);
+
+  //Font Sizes
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+
+  //Border Radius Sizes
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+}
+
+//Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Lora", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-primary);
+}
+
+h2 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+p {
+  color: var(--text-primary);
+  font-weight: 400;
+}
