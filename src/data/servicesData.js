@@ -690,6 +690,214 @@ const servicesData = [
       },
     ],
   },
+  {
+    slug: "microcement",
+    title: "MICROCEMENT",
+    image: "/images/image9.png",
+    heroSubtitle:
+      "Creating frosty masterpieces that add style and charm to any space.",
+    description:
+      "A modern and durable decorative finish that creates seamless, elegant surfaces without grout lines. Perfect for walls, floors, bathrooms, kitchens, and contemporary interiors.",
+    projects: [
+      {
+        title: "Microcement 1",
+        thumb: "/images/image0.jpeg",
+        full: "/images/image0.jpeg",
+      },
+      {
+        title: "Microcement 2",
+        thumb: "/images/image1.jpeg",
+        full: "/images/image1.jpeg",
+      },
+      {
+        title: "Microcement 3",
+        thumb: "/images/image2.jpeg",
+        full: "/images/image2.jpeg",
+      },
+      {
+        title: "Microcement 4",
+        thumb: "/images/image3.jpeg",
+        full: "/images/image3.jpeg",
+      },
+      {
+        title: "Microcement 5",
+        thumb: "/images/image4.jpeg",
+        full: "/images/image4.jpeg",
+      },
+      {
+        title: "Microcement 6",
+        thumb: "/images/image5.jpeg",
+        full: "/images/image5.jpeg",
+      },
+      {
+        title: "Microcement 7",
+        thumb: "/images/image6.jpeg",
+        full: "/images/image6.jpeg",
+      },
+      {
+        title: "Microcement 8",
+        thumb: "/images/image7.jpeg",
+        full: "/images/image7.jpeg",
+      },
+      {
+        title: "Microcement 9",
+        thumb: "/images/image8.jpeg",
+        full: "/images/image8.jpeg",
+      },
+      {
+        title: "Microcement 10",
+        thumb: "/images/image9.png",
+        full: "/images/image9.png",
+      },
+
+      {
+        title: "Microcement 12",
+        thumb: "/images/image11.jpeg",
+        full: "/images/image11.jpeg",
+      },
+      {
+        title: "Microcement 13",
+        thumb: "/images/image12.png",
+        full: "/images/image12.png",
+      },
+
+      {
+        title: "Microcement 15",
+        thumb: "/images/image14.jpeg",
+        full: "/images/image14.jpeg",
+      },
+      {
+        title: "Microcement 16",
+        thumb: "/images/image15.png",
+        full: "/images/image15.png",
+      },
+      {
+        title: "Microcement 17",
+        thumb: "/images/image16.jpeg",
+        full: "/images/image16.jpeg",
+      },
+      {
+        title: "Microcement 18",
+        thumb: "/images/image17.png",
+        full: "/images/image17.png",
+      },
+      {
+        title: "Microcement 19",
+        thumb: "/images/image18.jpeg",
+        full: "/images/image18.jpeg",
+      },
+      {
+        title: "Microcement 20",
+        thumb: "/images/image19.jpeg",
+        full: "/images/image19.jpeg",
+      },
+      {
+        title: "Microcement 21",
+        thumb: "/images/image20.jpeg",
+        full: "/images/image20.jpeg",
+      },
+      {
+        title: "Microcement 22",
+        thumb: "/images/image21.jpeg",
+        full: "/images/image21.jpeg",
+      },
+      {
+        title: "Microcement 23",
+        thumb: "/images/image22.png",
+        full: "/images/image22.png",
+      },
+      {
+        title: "Microcement 24",
+        thumb: "/images/image23.jpeg",
+        full: "/images/image23.jpeg",
+      },
+      {
+        title: "Microcement 25",
+        thumb: "/images/image24.jpeg",
+        full: "/images/image24.jpeg",
+      },
+      {
+        title: "Microcement 26",
+        thumb: "/images/image25.jpeg",
+        full: "/images/image25.jpeg",
+      },
+      {
+        title: "Microcement 27",
+        thumb: "/images/image26.jpeg",
+        full: "/images/image26.jpeg",
+      },
+      {
+        title: "Microcement 28",
+        thumb: "/images/image27.jpeg",
+        full: "/images/image27.jpeg",
+      },
+      {
+        title: "Microcement 29",
+        thumb: "/images/image28.jpeg",
+        full: "/images/image28.jpeg",
+      },
+      {
+        title: "Microcement 30",
+        thumb: "/images/image29.jpeg",
+        full: "/images/image29.jpeg",
+      },
+      {
+        title: "Microcement 31",
+        thumb: "/images/image30.jpeg",
+        full: "/images/image30.jpeg",
+      },
+      {
+        title: "Microcement 32",
+        thumb: "/images/image31.jpeg",
+        full: "/images/image31.jpeg",
+      },
+      {
+        title: "Microcement 33",
+        thumb: "/images/image32.jpeg",
+        full: "/images/image32.jpeg",
+      },
+      {
+        title: "Microcement 34",
+        thumb: "/images/image33.jpeg",
+        full: "/images/image33.jpeg",
+      },
+      {
+        title: "Microcement 35",
+        thumb: "/images/image34.jpeg",
+        full: "/images/image34.jpeg",
+      },
+      {
+        title: "Microcement 36",
+        thumb: "/images/image35.png",
+        full: "/images/image35.png",
+      },
+      {
+        title: "Microcement 37",
+        thumb: "/images/image36.jpeg",
+        full: "/images/image36.jpeg",
+      },
+      {
+        title: "Microcement 38",
+        thumb: "/images/image37.jpeg",
+        full: "/images/image37.jpeg",
+      },
+      {
+        title: "Microcement 39",
+        thumb: "/images/image38.jpeg",
+        full: "/images/image38.jpeg",
+      },
+      {
+        title: "Microcement 40",
+        thumb: "/images/image39.jpeg",
+        full: "/images/image39.jpeg",
+      },
+      {
+        title: "Microcement 41",
+        thumb: "/images/image40.jpeg",
+        full: "/images/image40.jpeg",
+      },
+    ],
+  },
 ];
 
 export default servicesData;

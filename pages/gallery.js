@@ -281,6 +281,164 @@ const gallery = () => {
       thumb: "/images/halloween-6.jpg",
       full: "/images/halloween-6.jpg",
     },
+    {
+      thumb: "/images/image0.jpeg",
+      full: "/images/image0.jpeg",
+    },
+    {
+      thumb: "/images/image1.jpeg",
+      full: "/images/image1.jpeg",
+    },
+    {
+      thumb: "/images/image2.jpeg",
+      full: "/images/image2.jpeg",
+    },
+    {
+      thumb: "/images/image3.jpeg",
+      full: "/images/image3.jpeg",
+    },
+    {
+      thumb: "/images/image4.jpeg",
+      full: "/images/image4.jpeg",
+    },
+    {
+      thumb: "/images/image5.jpeg",
+      full: "/images/image5.jpeg",
+    },
+    {
+      thumb: "/images/image6.jpeg",
+      full: "/images/image6.jpeg",
+    },
+    {
+      thumb: "/images/image7.jpeg",
+      full: "/images/image7.jpeg",
+    },
+    {
+      thumb: "/images/image8.jpeg",
+      full: "/images/image8.jpeg",
+    },
+    {
+      thumb: "/images/image9.png",
+      full: "/images/image9.png",
+    },
+
+    {
+      thumb: "/images/image11.jpeg",
+      full: "/images/image11.jpeg",
+    },
+    {
+      thumb: "/images/image12.png",
+      full: "/images/image12.png",
+    },
+
+    {
+      thumb: "/images/image14.jpeg",
+      full: "/images/image14.jpeg",
+    },
+    {
+      thumb: "/images/image15.png",
+      full: "/images/image15.png",
+    },
+    {
+      thumb: "/images/image16.jpeg",
+      full: "/images/image16.jpeg",
+    },
+    {
+      thumb: "/images/image17.png",
+      full: "/images/image17.png",
+    },
+    {
+      thumb: "/images/image18.jpeg",
+      full: "/images/image18.jpeg",
+    },
+    {
+      thumb: "/images/image19.jpeg",
+      full: "/images/image19.jpeg",
+    },
+    {
+      thumb: "/images/image20.jpeg",
+      full: "/images/image20.jpeg",
+    },
+    {
+      thumb: "/images/image21.jpeg",
+      full: "/images/image21.jpeg",
+    },
+    {
+      thumb: "/images/image22.png",
+      full: "/images/image22.png",
+    },
+    {
+      thumb: "/images/image23.jpeg",
+      full: "/images/image23.jpeg",
+    },
+    {
+      thumb: "/images/image24.jpeg",
+      full: "/images/image24.jpeg",
+    },
+    {
+      thumb: "/images/image25.jpeg",
+      full: "/images/image25.jpeg",
+    },
+    {
+      thumb: "/images/image26.jpeg",
+      full: "/images/image26.jpeg",
+    },
+    {
+      thumb: "/images/image27.jpeg",
+      full: "/images/image27.jpeg",
+    },
+    {
+      thumb: "/images/image28.jpeg",
+      full: "/images/image28.jpeg",
+    },
+    {
+      thumb: "/images/image29.jpeg",
+      full: "/images/image29.jpeg",
+    },
+    {
+      thumb: "/images/image30.jpeg",
+      full: "/images/image30.jpeg",
+    },
+    {
+      thumb: "/images/image31.jpeg",
+      full: "/images/image31.jpeg",
+    },
+    {
+      thumb: "/images/image32.jpeg",
+      full: "/images/image32.jpeg",
+    },
+    {
+      thumb: "/images/image33.jpeg",
+      full: "/images/image33.jpeg",
+    },
+    {
+      thumb: "/images/image34.jpeg",
+      full: "/images/image34.jpeg",
+    },
+    {
+      thumb: "/images/image35.png",
+      full: "/images/image35.png",
+    },
+    {
+      thumb: "/images/image36.jpeg",
+      full: "/images/image36.jpeg",
+    },
+    {
+      thumb: "/images/image37.jpeg",
+      full: "/images/image37.jpeg",
+    },
+    {
+      thumb: "/images/image38.jpeg",
+      full: "/images/image38.jpeg",
+    },
+    {
+      thumb: "/images/image39.jpeg",
+      full: "/images/image39.jpeg",
+    },
+    {
+      thumb: "/images/image40.jpeg",
+      full: "/images/image40.jpeg",
+    },
   ];
 
   const title = "Luxury Wall Art & Custom Wall Decor Gallery in Boston";
