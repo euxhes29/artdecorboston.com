@@ -46,8 +46,8 @@ const Home = () => {
         title="Art Decor Boston"
         subtitle={
           <>
-            Mural relief art that turns walls into living,
-            <br /> breathing masterpieces.
+            Microcement · Venetian Plaster · Rock Imitation · Painting · Mural
+            Relief & More
           </>
         }
         size="large"
