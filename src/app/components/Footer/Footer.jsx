@@ -75,7 +75,7 @@ const Footer = () => {
           <div className={styles.contactUsIcon}>
             <p>
               <FaEnvelope className={styles.icon} />
-              orgestdushku@gmail.com
+              contact@artdecorboston.com
             </p>
           </div>
         </div>
