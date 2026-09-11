@@ -168,6 +168,67 @@ const gallery = () => {
       thumb: "/images/image40.jpeg",
       full: "/images/image40.jpeg",
     },
+    {
+      thumb: "/images/microcement-42.png",
+      full: "/images/microcement-42.png",
+    },
+    {
+      thumb: "/images/microcement-44.jpeg",
+      full: "/images/microcement-44.jpeg",
+    },
+    {
+      thumb: "/images/microcement-45.jpeg",
+      full: "/images/microcement-45.jpeg",
+    },
+    {
+      thumb: "/images/microcement-46.jpeg",
+      full: "/images/microcement-46.jpeg",
+    },
+    {
+      thumb: "/images/microcement-47.jpeg",
+      full: "/images/microcement-47.jpeg",
+    },
+    {
+      thumb: "/images/microcement-48.jpeg",
+      full: "/images/microcement-48.jpeg",
+    },
+    {
+      thumb: "/images/microcement-49.jpeg",
+      full: "/images/microcement-49.jpeg",
+    },
+    {
+      thumb: "/images/microcement-50.jpeg",
+      full: "/images/microcement-50.jpeg",
+    },
+    {
+      thumb: "/images/microcement-51.jpeg",
+      full: "/images/microcement-51.jpeg",
+    },
+    {
+      thumb: "/images/microcement-52.jpeg",
+      full: "/images/microcement-52.jpeg",
+    },
+    {
+      thumb: "/images/microcement-53.png",
+      full: "/images/microcement-53.png",
+    },
+    {
+      thumb: "/images/microcement-54.jpeg",
+      full: "/images/microcement-54.jpeg",
+    },
+    {
+      thumb: "/images/microcement-55.jpeg",
+      full: "/images/microcement-55.jpeg",
+    },
+    {
+      thumb: "/images/microcement-56.png",
+      full: "/images/microcement-56.png",
+    },
+    {
+      thumb: "/images/microcement-58.png",
+      full: "/images/microcement-58.png",
+    },
+
     { thumb: "/images/gallery-1.jpg", full: "/images/gallery-1.jpg" },
     { thumb: "/images/gallery-2.jpg", full: "/images/gallery-2.jpg" },
     { thumb: "/images/gallery-3.jpg", full: "/images/gallery-3.jpg" },
