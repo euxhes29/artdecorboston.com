@@ -209,8 +209,8 @@ const gallery = () => {
       full: "/images/microcement-53.png",
     },
     {
-      thumb: "/images/microcement-54.jpeg",
-      full: "/images/microcement-54.jpeg",
+      thumb: "/images/microcement-54.png",
+      full: "/images/microcement-54.png",
     },
     {
       thumb: "/images/microcement-55.jpeg",
