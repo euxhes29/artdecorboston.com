@@ -2,7 +2,7 @@ const servicesData = [
   {
     slug: "microcement",
     title: "MICROCEMENT",
-    image: "/images/image9.png",
+    image: "/images/microcement-43.jpeg",
     heroSubtitle:
       "Creating frosty masterpieces that add style and charm to any space.",
     description:
