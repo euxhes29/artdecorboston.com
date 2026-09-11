@@ -473,7 +473,7 @@ const gallery = () => {
         jsonLd={jsonLd}
       />
       <Hero
-        image="/images/gallery-hero.jpg"
+        image="/images/microcement-43.jpeg"
         title="OUR GALLERY"
         subtitle={
           <>
