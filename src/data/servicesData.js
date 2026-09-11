@@ -617,7 +617,7 @@ const servicesData = [
   {
     slug: "painting",
     title: "PAINTING",
-    image: "/images/painting.jpg",
+    image: "/images/painting-20.jpeg",
     heroSubtitle:
       "Bringing life and elegance to every wall with expert painting and unmatched attention to detail.",
     description:

@@ -161,7 +161,7 @@ const Home = () => {
           />
 
           <Card
-            image="/images/painting.jpg"
+            image="/images/painting-20.jpeg"
             title="PAINTING"
             description="Add elegance and depth to your interiors with carefully selected
               paintings that complement your space and style."
