@@ -498,12 +498,12 @@ const gallery = () => {
     },
   ];
 
-  const title = "Luxury Wall Art & Custom Wall Decor Gallery in Boston";
+  const title = "Decorative Wall Finish Projects in Boston | Art Decor Boston";
   const description =
-    "View our gallery of luxury wall art and custom wall decor projects in Boston. Art Decor Boston delivers modern and decorative wall art that transforms interiors.";
+    "Explore Art Decor Boston projects featuring microcement, Venetian plaster, rock imitation, decorative painting, and mural relief.";
   const canonical = "https://artdecorboston.com/gallery";
   const keywords =
-    "wall art, luxury home decor, modern home decor, decorative wall art, custom wall decor, 3D wall art";
+    "decorative wall projects Boston, microcement projects Boston, Venetian plaster projects Boston, mural relief Boston, decorative finishes gallery";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -514,11 +514,24 @@ const gallery = () => {
     telephone: "+1 978 788 3652",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Boston",
+      streetAddress: "14 Lothrop St",
+      addressLocality: "Beverly",
       addressRegion: "MA",
+      postalCode: "01915",
       addressCountry: "US",
     },
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Boston",
+      },
+      {
+        "@type": "City",
+        name: "Beverly",
+      },
+    ],
   };
+
   return (
     <>
       <Seo

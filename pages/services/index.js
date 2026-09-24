@@ -10,12 +10,13 @@ import Link from "next/link";
 import Seo from "@/app/components/SEO/SEO";
 
 export default function Services() {
-  const title = "Custom Wall Art & Decorative Wall Design Services in Boston";
+  const title =
+    "Decorative Wall Finishes & Custom Art Services | Art Decor Boston";
   const description =
-    "Explore Art Decor Boston's services: custom wall art, decorative wall design, 3D wall art, and modern home decor. Professional wall decor solutions in Boston.";
+    "Explore Art Decor Boston's decorative wall finish services, including microcement, Venetian plaster, rock imitation, decorative painting, and mural relief in Boston, MA.";
   const canonical = "https://artdecorboston.com/services";
   const keywords =
-    "custom wall art, custom wall decor, decorative wall art, 3D wall art, wall decor, interior design";
+    "decorative wall finishes Boston, wall finishes Boston, microcement, Venetian plaster, rock imitation, decorative painting, mural relief";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -26,11 +27,24 @@ export default function Services() {
     telephone: "+1 978 788 3652",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Boston",
+      streetAddress: "14 Lothrop St",
+      addressLocality: "Beverly",
       addressRegion: "MA",
+      postalCode: "01915",
       addressCountry: "US",
     },
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Boston",
+      },
+      {
+        "@type": "City",
+        name: "Beverly",
+      },
+    ],
   };
+
   return (
     <>
       <Seo

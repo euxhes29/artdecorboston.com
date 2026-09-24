@@ -8,13 +8,12 @@ import Link from "next/link";
 import Seo from "@/app/components/SEO/SEO";
 
 export default function AboutUs() {
-  const title =
-    "About Art Decor Boston | Custom Wall Art & Interior Design Experts";
+  const title = "About Art Decor Boston | Decorative Finishes in Boston, MA";
   const description =
-    "Learn about Art Decor Boston, the leading custom wall art and interior design experts. Our team creates decorative wall art and modern home decor for Boston homes.";
+    "Learn about Art Decor Boston, a decorative finishes company based in Beverly, MA. We create microcement, Venetian plaster, rock imitation, decorative painting, and mural relief for clients in Boston and surrounding areas.";
   const canonical = "https://artdecorboston.com/about";
   const keywords =
-    "about Art Decor Boston, interior design, custom wall decor, decorative wall art, wall art, modern home decor";
+    "Art Decor Boston, decorative finishes Boston, microcement Boston, Venetian plaster Boston, rock imitation Boston, decorative painting Boston, mural relief Boston";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -25,11 +24,24 @@ export default function AboutUs() {
     telephone: "+1 978 788 3652",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Boston",
+      streetAddress: "14 Lothrop St",
+      addressLocality: "Beverly",
       addressRegion: "MA",
+      postalCode: "01915",
       addressCountry: "US",
     },
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Boston",
+      },
+      {
+        "@type": "City",
+        name: "Beverly",
+      },
+    ],
   };
+
   return (
     <>
       <Seo
@@ -61,22 +73,27 @@ export default function AboutUs() {
           <div className={styles.text}>
             <h2>Who Are We?</h2>
             <p>
-              At Art Decor Boston, we believe that every space has a story to
-              tell. Founded in the heart of Boston, our company blends
-              creativity, functionality, and artistry to craft environments that
-              inspire and delight.
+              At Art Decor Boston, we transform interior and exterior spaces
+              through artistic craftsmanship and high-quality decorative
+              finishes. Based in Beverly, Massachusetts, we serve homeowners,
+              businesses, and commercial spaces throughout Boston and
+              surrounding areas.
             </p>
             <p>
-              With years of experience in interior design, we specialize in
-              transforming homes, offices, and public spaces into places that
-              reflect personality, style, and purpose. Each project is
-              approached with meticulous attention to detail, innovative
-              solutions, and a passion for excellence.
+              Our services include microcement, venetian plaster, decorative
+              painting, rock imitation, and custom mural relief, combining
+              texture, color, and craftsmanship to create distinctive spaces.
             </p>
             <p>
-              Our team sees design as more than decoration—it’s an opportunity
-              to enhance life and create memorable experiences for everyone who
-              enters the space.
+              Every project is tailored to the client's vision and style. From
+              modern microcement finishes to timeless venetian plaster,
+              realistic rock imitation, and custom decorative artwork, we create
+              surfaces that bring character and individuality to every space.
+            </p>
+            <p>
+              Our goal is simple: to transform ordinary surfaces into
+              distinctive works of art through quality craftsmanship, attention
+              to detail, and creative design.
             </p>
           </div>
         </section>

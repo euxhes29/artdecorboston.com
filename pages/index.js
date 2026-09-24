@@ -10,12 +10,13 @@ import Link from "next/link";
 import Seo from "@/app/components/SEO/SEO";
 
 const Home = () => {
-  const title = "Custom Wall Art & Home Decor in Boston | Art Decor Boston";
+  const title =
+    "Microcement & Venetian Plaster in Boston, MA | Art Decor Boston";
   const description =
-    "Discover custom wall art, luxury home decor, and 3D wall designs in Boston with Art Decor Boston. Transform your walls into stunning masterpieces today.";
+    "Art Decor Boston provides microcement, Venetian plaster, rock imitation, decorative painting, and mural relief for residential and commercial spaces in Boston and surrounding Massachusetts areas.";
   const canonical = "https://artdecorboston.com";
   const keywords =
-    "home decor, wall decor, wall art, luxury home decor, custom wall art, modern home decor, 3D wall art";
+    "microcement Boston, Venetian plaster Boston, rock imitation Boston, decorative painting Boston, mural relief Boston, decorative wall finishes Boston";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -26,11 +27,24 @@ const Home = () => {
     telephone: "+1 978 788 3652",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Boston",
+      streetAddress: "14 Lothrop St",
+      addressLocality: "Beverly",
       addressRegion: "MA",
+      postalCode: "01915",
       addressCountry: "US",
     },
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Boston",
+      },
+      {
+        "@type": "City",
+        name: "Beverly",
+      },
+    ],
   };
+
   return (
     <>
       <Seo
@@ -47,7 +61,7 @@ const Home = () => {
         subtitle={
           <>
             Microcement · Venetian Plaster · Rock Imitation · Painting · Mural
-            Relief & More
+            Relief
           </>
         }
         size="large"
@@ -65,7 +79,7 @@ const Home = () => {
             <div className={styles.whoAreWeImage}>
               <Image
                 src="/images/gallery-6.jpg"
-                alt="Art Decor Boston"
+                alt="Decorative faux stone wall finish"
                 fill
                 priority
               />
@@ -74,7 +88,7 @@ const Home = () => {
               <div className={styles.image1}>
                 <Image
                   src="/images/our-values.jpg"
-                  alt="Art Decor Boston"
+                  alt="Realistic faux rock wall finish"
                   fill
                   priority
                 />
@@ -82,7 +96,7 @@ const Home = () => {
               <div className={styles.image2}>
                 <Image
                   src="/images/passion-for-decor.jpg"
-                  alt="Art Decor Boston"
+                  alt="Custom artificial rock texture wall"
                   fill
                   priority
                 />
@@ -95,16 +109,22 @@ const Home = () => {
               <h2>Who Are We?</h2>
             </div>
             <p>
-              At Art Decor Boston we combine art and functionality to bring life
-              to any space. Based in Boston and with a deep passion for interior
-              design, we offer creative and personalized solutions for homes,
-              offices and public spaces.
+              At Art Decor Boston, we transform interiors through artistic
+              craftsmanship, modern design, and high-quality decorative
+              finishes. Based in Beverly, Massachusetts, we serve clients
+              throughout Boston and surrounding areas with creative solutions
+              for residential, commercial, and public spaces. Our work includes
+              microcement, venetian plaster, decorative painting, rock
+              imitation, and custom mural relief, combining texture, color, and
+              craftsmanship to create distinctive interiors.
             </p>
             <p>
-              Our creations are inspired by modern and classic aesthetics,
-              always maintaining a unique identity that reflects the client's
-              desires and style. Every project for us is an opportunity to bring
-              something special and unforgettable.
+              Every project is tailored to the client's vision, whether you're
+              looking for a modern minimalist finish, a timeless Venetian
+              plaster wall, a unique decorative surface, or a custom artistic
+              feature. We focus on detail, quality, and creating spaces that
+              feel truly personal. From concept to completion, our goal is
+              simple: to turn ordinary surfaces into distinctive works of art.
             </p>
             <div className={styles.aboutUsBtn}>
               <Link href="/about">
