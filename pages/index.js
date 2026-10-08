@@ -78,8 +78,8 @@ const Home = () => {
           <div className={styles.whoAreWeFlex}>
             <div className={styles.whoAreWeImage}>
               <Image
-                src="/images/gallery-6.jpg"
-                alt="Decorative faux stone wall finish"
+                src="/images/microcement-45.jpeg"
+                alt="Living room accent wall with textured Venetian plaster behind flat screen TV"
                 fill
                 priority
               />
@@ -87,16 +87,16 @@ const Home = () => {
             <div className={styles.imageFlex}>
               <div className={styles.image1}>
                 <Image
-                  src="/images/our-values.jpg"
-                  alt="Realistic faux rock wall finish"
+                  src="/images/microcement-48.jpeg"
+                  alt="Modern bathroom shower design with seamless microcement walls and floor"
                   fill
                   priority
                 />
               </div>
               <div className={styles.image2}>
                 <Image
-                  src="/images/passion-for-decor.jpg"
-                  alt="Custom artificial rock texture wall"
+                  src="/images/microcement-47.jpeg"
+                  alt="Decorative arch with built-in LED lighting and textured plaster finish"
                   fill
                   priority
                 />
@@ -163,6 +163,15 @@ const Home = () => {
         </div>
         <div className={styles.ourServicesCards}>
           <Card
+            image="/images/microcement-43.jpeg"
+            title="MICROCEMENT"
+            description="A modern and durable decorative finish that creates seamless, 
+            elegant surfaces without grout lines. Perfect for walls, floors, bathrooms, 
+            kitchens, and contemporary interiors."
+            slug="microcement"
+          />
+
+          <Card
             image="/images/imitation-of-rocks.jpg"
             title="IMITATION OF ROCKS"
             description="A sophisticated technique that replicates the natural beauty of
@@ -172,17 +181,8 @@ const Home = () => {
           />
 
           <Card
-            image="/images/wall-relief-1.jpeg"
-            title="RELIEF WALL"
-            description="A three-dimensional decorative art form that adds texture and
-              depth to walls, transforming flat surfaces into elegant visual
-              statements."
-            slug="wall-relief"
-          />
-
-          <Card
             image="/images/painting-20.jpeg"
-            title="PAINTING"
+            title="DECORATIVE PAINTING"
             description="Add elegance and depth to your interiors with carefully selected
               paintings that complement your space and style."
             slug="painting"
