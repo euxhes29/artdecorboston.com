@@ -1,4 +1,5 @@
 import { Raleway } from "next/font/google";
+import Head from "next/head";
 import "../styles/variables.scss";
 import Navbar from "@/app/components/Navbar/Navbar";
 
@@ -9,9 +10,15 @@ const raleway = Raleway({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={raleway.className}>
-      <Navbar />
-      <Component {...pageProps} />
-    </main>
+    <>
+      <Head>
+        <link rel="icon" href="/images/favicon.png" />
+      </Head>
+
+      <main className={raleway.className}>
+        <Navbar />
+        <Component {...pageProps} />
+      </main>
+    </>
   );
 }
