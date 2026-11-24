@@ -175,11 +175,7 @@ const servicesData = [
         thumb: "/images/image34.jpeg",
         full: "/images/image34.jpeg",
       },
-      {
-        title: "Microcement 36",
-        thumb: "/images/image35.png",
-        full: "/images/image35.png",
-      },
+
       {
         title: "Microcement 37",
         thumb: "/images/image36.jpeg",

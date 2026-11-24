@@ -145,10 +145,6 @@ const gallery = () => {
       full: "/images/image34.jpeg",
     },
     {
-      thumb: "/images/image35.png",
-      full: "/images/image35.png",
-    },
-    {
       thumb: "/images/image36.jpeg",
       full: "/images/image36.jpeg",
     },
